@@ -1,4 +1,5 @@
 [Lien de mon app](https://fab-landing-pages.herokuapp.com/)
-![Screenshot](checkr.png) 
+![Screenshot](checkr.png) <br>
+![Screenshot](checkr2.png)
 <p>J'ai mis des captures d'écrans car les guidelines d'aujourd'hui ne prennent pas en compte la responsivité, et nous n'avons pas tous les mêmes tailes d'écran, donc le même rendu !</p>
 
