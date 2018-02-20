@@ -543,3 +543,550 @@ header button:hover:after {
 }
 
 /*Les différents formats, WOFF/2 accéptés par les différens navigateurs*/
+@import "flynn.html.erb";
+
+@font-face {
+
+  font-family: 'League Spartan';
+
+  src:font-url('/league-spartan/LeagueSpartan-Bold.otf');
+
+  
+
+  font-weight: normal;
+
+  font-style: normal;
+
+	}
+#First_part {
+	font-family: "League Spartan", sans-serif;
+	font-size: 16px;
+	padding-left: 12%;
+	padding-right: 12%; 
+}
+
+
+
+#list1 {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+
+	
+
+}
+
+.flynn li.item {
+	
+	color: #1bb45e;
+	font-weight: 900;
+	padding: 0.88em 0.56em;
+	font-size: 20px;
+	
+}
+
+.flynn li.btn {
+	
+	font-weight: 900;
+	background-color: #1bb45e;
+	color: white;
+	font-size: 20px;
+	border-radius: 1.82em;
+	padding: 0.88em 1.36em;
+    
+	
+}
+
+
+/* {
+	border: 1px solid black;
+}*/
+
+li.brand {
+	margin-left: -40px;
+	padding-top: 0.56em;
+	left: 0;
+}
+
+#list_items {
+	display: flex;
+}
+
+ul#list1 > div > li.item > a:link {
+	text-decoration: none;
+	color: #1bb45e;
+
+}
+
+ul#list1 > div > li.btn > a:link {
+	text-decoration: none;
+	color: white;
+
+}
+
+
+ul#list1 > div > li.item > a:visited {
+	text-decoration: none;
+	color: #1bb45e;
+}
+
+ul#list1 > div > li.item:hover {
+	background-color: grey;
+}
+
+ul#list1 > div > li.item:hover a {
+	color: white;
+}
+
+
+.flynn h1 {
+	 
+	text-align: center;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+
+
+a{
+
+	text-decoration: none;
+
+}
+
+
+
+html, body{
+
+	padding: 0px;
+
+	margin: 0px;
+
+	width: 100%;
+
+	height: 100%;
+
+	display: flex;
+
+	font-size: 16px;
+
+	justify-content: center;
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+
+
+*{
+
+	box-sizing: border-box;
+
+}
+
+
+
+h1, h2, h3, h4, a{
+
+	font-family: "League Spartan", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+	line-height: 1.2em;
+
+
+
+}
+
+
+
+.contact-button{
+
+	position: absolute;
+
+	bottom: 0;
+
+	right: 0;
+
+	display: none;
+
+}
+
+
+
+.flag{
+
+	display: flex;
+
+	flex-direction: column;
+
+	align-items: center;
+
+}
+
+
+
+.part1{
+
+	display: flex;
+
+	flex-direction: column;
+
+	align-items: center;	
+
+	width: 1020px;
+
+	height: 793.8px;
+
+}
+
+
+
+.part2{
+
+	display: flex;
+
+	align-items: center;
+
+	flex-direction: column;
+
+	width: 1020px;
+
+	height: 502.533px;
+
+}
+
+
+
+.part3{
+
+	display: flex;
+
+	flex-direction: column;
+
+	align-items: center;
+
+}
+
+
+
+nav ul{
+
+	display: flex;
+
+	list-style-type: none;
+
+}
+
+
+
+
+
+.headnav{
+
+	display: flex;
+
+	justify-content: right;
+
+
+
+}
+
+
+
+.ico{
+
+	display: flex;
+
+	align-self: left;
+
+}
+
+
+
+h1{
+
+	font-size: 4.5rem;
+
+	text-align: center;
+
+}
+
+
+
+#poster{
+
+	
+
+	background-image: url('https://flynn.io/images/flynn_demo_poster-80eaa060.jpg');
+
+	width: 888px;
+
+	height: 500px;
+
+	
+
+}
+
+
+
+.midnav{
+
+
+
+	padding-top: 40px;
+
+	width: 1020px;
+
+	display: flex;
+
+	justify-content: center;
+
+	
+
+	li{
+
+			height: 60px;
+
+		 border: 2px solid #c2c2c2;
+
+		 a{
+
+		 color: #1bb45e;
+
+		 font-size: 1.375rem;
+
+		}
+
+	}
+
+
+
+	li:hover{
+
+		background-color: #c2c2c2;
+
+		a{
+
+			color: white;
+
+		}
+
+	}
+
+
+
+	#li1{
+
+		width: 310px;
+
+		display: flex;
+
+		justify-content: center;
+
+		align-items: center;
+
+	}
+
+
+
+	#li2{
+
+		width: 340px;
+
+		border-left: none;
+
+		display: flex;
+
+		justify-content: center;
+
+		align-items: center;
+
+	}
+
+
+
+	#li3{
+
+		width: 370px;
+
+		border-left: none;
+
+		display: flex;
+
+		justify-content: center;
+
+		align-items: center;
+
+	}
+
+
+
+}
+
+
+
+section h2 {
+
+	font-size: 3.425rem;
+
+	width: 700px;
+
+	margin: 0;
+
+	padding: 0;
+
+	position: relative;
+
+}
+
+
+
+h4.content{
+
+	font-size: 1.125rem;
+
+	color: #727272;
+
+	line-height: 1.75em;
+
+	width: 700px;
+
+	padding-bottom: 0;
+
+}
+
+
+
+h3{
+
+	font-size: 2.5rem;
+
+	align-self: left
+
+}
+
+
+
+#content-list{
+
+	width: 736px;
+
+	line-height: 1.75em;
+
+}
+
+
+
+.content{
+
+	color: #727272;
+
+	width: 700px;
+
+	a{
+
+		color: #08a1f4
+
+	}
+
+}
+
+
+
+#trynow{
+
+	font-size: 1.375rem;
+
+	line-height: 2.73em;
+
+	padding: 0 1.25em;
+
+	padding-top: 0.146em;
+
+	border-radius: 2em;
+
+	background-color: #1bb45e;
+
+	color: #ffffff;
+
+	margin-top: 2.91em;
+
+	margin-bottom: 2.91em;
+
+}
+
+
+
+form{
+
+	display: flex;
+
+	flex-direction: column;
+
+	align-items: center;
+
+	font-size: 1rem;
+
+	line-height: 1.5em;
+
+	input{
+
+		width: 179.333px;
+
+		height: 34px;
+
+		line-height: normal;
+
+	}
+
+
+
+	h2{
+
+		font-size: 3.425rem;
+
+		
+
+	}
+
+
+
+}
+
+
+
+button{
+
+	background-color: #1eb45d;
+
+border: none;
+
+border-radius: 4px;
+
+color: #ffffff;
+
+padding: 0.4em 0.6em;
+
+width: 94.5833px;
+
+height: 36.8px;
+
+}
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
