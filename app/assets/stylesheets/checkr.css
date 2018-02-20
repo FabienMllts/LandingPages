@@ -60,7 +60,7 @@ p {
     top: 0px;
     padding-right: 120px;
     padding-left: 120px;
-    margin-left: 275px;
+    
 
 }
 
@@ -70,9 +70,7 @@ nav {
 
 }
 
-#nav-margin{
-    margin-right: 200px;
-}
+
 
 a.nav-right {
     color: white;
@@ -95,7 +93,7 @@ nav li {
 header {
     display: flex;
     padding-top: 10px;
-    margin-right: 200px;
+    
 }
 
 header > div {
@@ -256,7 +254,7 @@ header button:hover:after {
 /* #screen_1_content > :nth-child(2) { */
 #section_1_content > video {
     flex: 55%; /* équivaut à un zoom */
-    margin-right: 200px;
+    
     margin-top: 18px;
 }
 
